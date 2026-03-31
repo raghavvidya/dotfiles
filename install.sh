@@ -5,6 +5,7 @@ alias k=kubectl
 alias profile="aws-sso|egrep 'dev|test|prod'|grep -i admin|grep -v qs-admin|sort -k3,3"
 alias eks="kubectl config get-contexts|awk '{print \$2}'|egrep 'development|test|production'"
 alias k8s="/home/vscode/dotfiles/k8s_switch.sh"
+alias sso="/home/vscode/dotfiles/sso_switch.sh"
 
 setopt PROMPT_SUBST
 
