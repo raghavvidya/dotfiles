@@ -3,7 +3,7 @@
 
 alias k=kubectl
 alias profile="aws-sso|egrep 'dev|test|prod'|grep -i admin|grep -v qs-admin|sort -k3,3"
-alias contexts="kubectl config get-contexts|awk '{print \$2}'|egrep 'development|test|production'"
+alias eks="kubectl config get-contexts|awk '{print \$2}'|egrep 'development|test|production'"
 
 setopt PROMPT_SUBST
 
