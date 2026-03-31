@@ -1,1 +1,1 @@
-source /home/vscode/dotfiles/install.sh
+. /home/vscode/dotfiles/install.sh
