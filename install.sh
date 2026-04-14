@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 # shellcheck disable=SC2016
 
+alias kubectl="kubecolor"
 alias k=kubectl
 alias profile="aws-sso|egrep 'dev|test|prod'|grep -i admin|grep -v qs-admin|sort -k3,3"
 alias eks="kubectl config get-contexts|awk '{print \$2}'|egrep 'development|test|production'"
